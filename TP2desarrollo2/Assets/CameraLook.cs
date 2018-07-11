@@ -14,7 +14,7 @@ public class CameraLook : MonoBehaviour
     {
         //Calculo la rotación en cada eje según el input
         float horRot = Input.GetAxis("Mouse X") * speed * Time.deltaTime;
-        float verRot = -Input.GetAxis("Mouse Y") * speed * Time.deltaTime;
+        float verRot = -Input.GetAxis("Mouse Y") * speed * Time.deltaTime;        
 
         //Aplico la rotación a un contador de angulo vertical
         verticalAngle += verRot;
